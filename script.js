@@ -50,7 +50,7 @@ else if(showPlayer.className === "fas fa-hand-rock" && comPlayer.className==="fa
    
 else if(showPlayer.className === "fas fa-hand-rock" && comPlayer.className==="fas fa-hand-paper" || showPlayer.className === "fas fa-hand-paper" && comPlayer.className==="fas fa-hand-scissors" || showPlayer.className === "fas fa-hand-scissors" && comPlayer.className==="fas fa-hand-rock"){
     computerScore ++;
- result.innerHTML =`Computer Wins <i class="fas fa-angry"></i>` 
+ result.innerHTML =`Computer Wins <i class="fas fa-sad-cry"></i>` 
  compScore.innerHTML =computerScore;
  if(computerScore === 10){
    rockbtn.disabled = true;
